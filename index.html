@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>kopi kenangan senja</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        ><h2>kenangan<span>senja</span></h2></a
+      >
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak Kami</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"> <i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>kopi</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, culpa
+          neque sed tempore rem, facere asperiores laudantium unde recusandae
+          vitae, dicta inventore odit expedita facilis dolor a mollitia
+          obcaecati ut.
+        </p>
+        <a href="#" class="cta">beli sekarang</a>
+      </main>
+    </section>
+    <!--       tentang kami       -->
+    <section id="about" class="about">
+      <h2>Tentang <span>Kami</span></h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="images/kopi2.jpg" alt="tentang kami" />
+          <div class="content">
+            <h3>Kenapa Memilih Kopi Kami</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur ab sit tenetur repellat facilis, accusamus ullam
+              voluptates placeat magnam deleniti, numquam provident odit rem,
+              eum distinctio laboriosam maiores nam nihil? Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Dignissimos vel laudantium eius.
+              Cumque aperiam ducimus possimus veritatis sapiente! Repellat
+              dolores, dicta eum rem porro omnis expedita excepturi ex ea
+              libero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--          end               -->
+
+    <!--          menu section              -->
+    <section id="menu" class="menu">
+      <h2>Menu <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis
+        neque quaerat temporibus porro laborum.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="menu/kopi3.jpg" alt="expresso" />
+          <h3>Espresso</h3>
+          <p>Our signature espresso made with freshly roasted beans.</p>
+          <span class="price">Rp 25.000</span>
+        </div>
+        <div class="menu-card">
+          <img src="menu/kopi4.jpg" alt="expresso" />
+          <h3>Capuchino</h3>
+          <p>Our signature espresso made with freshly roasted beans.</p>
+          <span class="price">Rp 35.000</span>
+        </div>
+        <div class="menu-card">
+          <img src="menu/kopi5.jpg" alt="expresso" />
+          <h3>Americanno</h3>
+          <p>Our signature espresso made with freshly roasted beans.</p>
+          <span class="price">Rp 45.000</span>
+        </div>
+      </div>
+    </section>
+    <!--          end  menu section             -->
+    <!--           contact section             -->
+    <section id="contact" class="contact">
+      <h2>Kontak <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis
+        neque quaerat temporibus porro laborum.
+      </p>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31688.29313387121!2d107.52361194112957!3d-6.886214575282225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e43e8ebf7617%3A0x501e8f1fc2974e0!2sCimahi%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1679509350700!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Handphone" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!--          end  contact section             -->
+    <footer>
+      <div class="container">
+        <marquee class="marquee"> POWERED BY IMANDRI FATURAHMAN </marquee>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
